@@ -1,4 +1,4 @@
-## novi-seccomp ##
+## seccomp-nova ##
 
 A container-focused seccomp-cBPF generation library, intended primarily for use
 within [runc][runc]. Currently [libseccomp][libseccomp] is missing several
@@ -168,9 +168,11 @@ libseccomp supported at least one of the following features:
 
 ### License ###
 
-novi-seccomp is licensed under the Apache 2.0 license.
+seccomp-nova is licensed under the Apache 2.0 license.
 
 ```
+seccomp-nova: alternative libseccomp profile generator for container runtimes
+
 Copyright (c) 2021 Aleksa Sarai <cyphar@cyphar.com>
 Copyright (c) 2021 SUSE LLC
 
